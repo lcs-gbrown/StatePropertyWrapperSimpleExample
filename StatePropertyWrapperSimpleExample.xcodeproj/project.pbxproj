@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AC1079E275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1079D275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift */; };
-		0AC107A0275535CE0057E8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1079F275535CE0057E8D4 /* ContentView.swift */; };
+		0AC107A0275535CE0057E8D4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1079F275535CE0057E8D4 /* CircleView.swift */; };
 		0AC107A2275535D10057E8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC107A1275535D10057E8D4 /* Assets.xcassets */; };
 		0AC107A5275535D10057E8D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC107A4275535D10057E8D4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		0AC1079A275535CE0057E8D4 /* StatePropertyWrapperSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatePropertyWrapperSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC1079D275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyWrapperSimpleExampleApp.swift; sourceTree = "<group>"; };
-		0AC1079F275535CE0057E8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AC1079F275535CE0057E8D4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		0AC107A1275535D10057E8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AC107A4275535D10057E8D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC1079D275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift */,
-				0AC1079F275535CE0057E8D4 /* ContentView.swift */,
+				0AC1079F275535CE0057E8D4 /* CircleView.swift */,
 				0AC107A1275535D10057E8D4 /* Assets.xcassets */,
 				0AC107A3275535D10057E8D4 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC107A0275535CE0057E8D4 /* ContentView.swift in Sources */,
+				0AC107A0275535CE0057E8D4 /* CircleView.swift in Sources */,
 				0AC1079E275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
