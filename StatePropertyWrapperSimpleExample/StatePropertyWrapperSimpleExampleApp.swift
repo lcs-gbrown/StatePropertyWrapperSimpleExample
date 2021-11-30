@@ -14,6 +14,10 @@ struct StatePropertyWrapperSimpleExampleApp: App {
             NavigationView {
             CircleView()
             }
+            
+            NavigationView {
+            ParallelogramView()
+            }
         }
     }
 }
