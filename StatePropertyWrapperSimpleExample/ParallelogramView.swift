@@ -25,31 +25,59 @@ struct ParallelogramView: View {
             Text("Radius:")
                 .bold()
             
-            //The syntax of $ says to use the property radius, and BIND it to this control
-            //This value means when the control changes, the property's value changes
-            Slider(value: $length,
-                   in: 0.0...100.0,
-                   label: {
-                Text("Length")
-            },
-                   minimumValueLabel: {
-                Text("0.0")
-            },
-                   maximumValueLabel: {
-                Text("100.0")
-            })
-            
-            Slider(value: $height,
-                   in: 0.0...100.0,
-                   label: {
-                Text("Height")
-            },
-                   minimumValueLabel: {
-                Text("0.0")
-            },
-                   maximumValueLabel: {
-                Text("100.0")
-            })
+            Group {
+                
+                //Show the selected radius value
+                //The syntax of $ says to use the property radius, and BIND it to this control
+                //This value means when the control changes, the property's value changes
+                Slider(value: $length,
+                       in: 0.0...100.0,
+                       label: {
+                    Text("Length")
+                },
+                       minimumValueLabel: {
+                    Text("0.0")
+                },
+                       maximumValueLabel: {
+                    Text("100.0")
+                })
+                
+                Slider(value: $height,
+                       in: 0.0...100.0,
+                       label: {
+                    Text("Height")
+                },
+                       minimumValueLabel: {
+                    Text("0.0")
+                },
+                       maximumValueLabel: {
+                    Text("100.0")
+                })            //The syntax of $ says to use the property radius, and BIND it to this control
+                //This value means when the control changes, the property's value changes
+                Slider(value: $length,
+                       in: 0.0...100.0,
+                       label: {
+                    Text("Length")
+                },
+                       minimumValueLabel: {
+                    Text("0.0")
+                },
+                       maximumValueLabel: {
+                    Text("100.0")
+                })
+                
+                Slider(value: $height,
+                       in: 0.0...100.0,
+                       label: {
+                    Text("Height")
+                },
+                       minimumValueLabel: {
+                    Text("0.0")
+                },
+                       maximumValueLabel: {
+                    Text("100.0")
+                })
+            }
             
             
             //Output
