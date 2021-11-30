@@ -34,7 +34,9 @@ struct CircleView: View {
                 //Show the selected radius value
                 HStack {
                     Spacer()
-                    Text("\(radius)")
+                    Text("\(String(format: "%.2f", radius))")
+                        .font(.title2)
+                        .bold()
                     Spacer()
                 }
                 //The syntax of $ says to use the property radius, and BIND it to this control
@@ -60,7 +62,7 @@ struct CircleView: View {
             Text("Area")
                     .bold()
             
-            Text("\(area) square units")
+            Text("\(String(format:"%.1f",radius))")
             
             Spacer()
             
