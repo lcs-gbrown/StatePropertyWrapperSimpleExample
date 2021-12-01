@@ -10,26 +10,19 @@ import SwiftUI
         struct EnhancedListItemView: View {
             
             // MARK: Stored properties
-            let imageName: String
-            let title: String
-            let subtitle: String
+            let shapeTitle: String
+            let shapeCaption: String
             
             // MARK: Computed properties
             var body: some View {
                 HStack {
                     
-                    Image(imageName)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    
                     VStack(alignment: .leading) {
                         
-                        Text(title)
+                        Text(shapeTitle)
                             .bold()
                         
-                        Text(subtitle)
+                        Text(shapeCaption)
                             .font(.caption)
                         
                     }
@@ -37,11 +30,12 @@ import SwiftUI
                 }
             }
         }
-    }
-}
+    
+
 
 struct EnhancedListView_Previews: PreviewProvider {
     static var previews: some View {
-        EnhancedListView()
+        EnhancedListItemView(shapeTitle: "Circle",
+                             shapeCaption: "A round Shape")
     }
 }

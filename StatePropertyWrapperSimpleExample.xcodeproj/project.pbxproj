@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AB387592756F77500126774 /* EnhancedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB387582756F77500126774 /* EnhancedListView.swift */; };
 		0AB3875B2756F7A500126774 /* ShapeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3875A2756F7A500126774 /* ShapeList.swift */; };
+		0AB3875E2756FBC400126774 /* ShapesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3875D2756FBC400126774 /* ShapesListView.swift */; };
 		0AC1079E275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1079D275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift */; };
 		0AC107A0275535CE0057E8D4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1079F275535CE0057E8D4 /* CircleView.swift */; };
 		0AC107A2275535D10057E8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC107A1275535D10057E8D4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0AB387582756F77500126774 /* EnhancedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListView.swift; sourceTree = "<group>"; };
 		0AB3875A2756F7A500126774 /* ShapeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeList.swift; sourceTree = "<group>"; };
+		0AB3875D2756FBC400126774 /* ShapesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesListView.swift; sourceTree = "<group>"; };
 		0AC1079A275535CE0057E8D4 /* StatePropertyWrapperSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatePropertyWrapperSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC1079D275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyWrapperSimpleExampleApp.swift; sourceTree = "<group>"; };
 		0AC1079F275535CE0057E8D4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				0AC1079F275535CE0057E8D4 /* CircleView.swift */,
 				0AC107AB275541DE0057E8D4 /* ParallelogramView.swift */,
 				0AB387582756F77500126774 /* EnhancedListView.swift */,
+				0AB3875D2756FBC400126774 /* ShapesListView.swift */,
 				0AC107A1275535D10057E8D4 /* Assets.xcassets */,
 				0AC107A3275535D10057E8D4 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			files = (
 				0AB3875B2756F7A500126774 /* ShapeList.swift in Sources */,
 				0AC107A0275535CE0057E8D4 /* CircleView.swift in Sources */,
+				0AB3875E2756FBC400126774 /* ShapesListView.swift in Sources */,
 				0AC1079E275535CE0057E8D4 /* StatePropertyWrapperSimpleExampleApp.swift in Sources */,
 				0AB387592756F77500126774 /* EnhancedListView.swift in Sources */,
 				0AC107AC275541DE0057E8D4 /* ParallelogramView.swift in Sources */,
